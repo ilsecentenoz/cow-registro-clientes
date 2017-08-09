@@ -50,7 +50,8 @@
 			        <h3>DATOS DE LA <span class="span-rojos-titulos">EMPRESA</span></h3>
 			    </div>
 				<div class="row">
-				    <form class="col m6 s6">
+				    <form>
+				     <div class="col m6 s6">
 				      <div class="row">
 				        <div class="input-field col m12 s12">
 				          <input id="name" type="text" class="validate">
@@ -87,20 +88,22 @@
 				          <label for="floor">Piso</label>
 				        </div>
 				      </div>
-			    	</form>
-			    	<div class="valign-wrapper">
-			            <div class="col m6 s6 img-form">
-			              <output id="list-logo" class="thumb"><img class="thumb" src="http://via.placeholder.com/350x350" alt=""></output>
+				     </div>
+				     <div class="valign-wrapper">
+			            <div class="col m6 s6 img-form marging-sctn-empresa">
+			              <output id="list-contact" class="thumb"><img class="thumb" src="http://via.placeholder.com/350x350" alt=""></output>
 			              <br /> 
-			              <input type="file" id="files-logo" name="files[]" class="fileUpload"/>
+			              <input type="file" id="files-contact" name="files[]" />
 			            </div>
 					</div>	
+			    	</form>
 				</div>
 				<div class="row center-align">
 			        <h3>CONTACTO <span class="span-rojos-titulos">PRINCIPAL</span></h3>
 			    </div>
 				<div class="row">
-					<form class="col m6 s6 pdn-sctn-empresa">
+					<form class="pdn-sctn-empresa">
+					 <div class="col m6 s6">
 				      <div class="row">
 				        <div class="input-field col m12 s12">
 				          <input id="name_contact" type="text" class="validate">
@@ -125,14 +128,15 @@
 				          <label for="icon_telephone">Contacto Emergencia</label>
 				        </div>
 				      </div>
-			    	</form>
-			    	<div class="valign-wrapper">
+				     </div>
+				     <div class="valign-wrapper">
 			            <div class="col m6 s6 img-form marging-sctn-empresa">
 			              <output id="list-contact" class="thumb"><img class="thumb" src="http://via.placeholder.com/350x350" alt=""></output>
 			              <br /> 
 			              <input type="file" id="files-contact" name="files[]" />
 			            </div>
 					</div>	
+			    	</form>
 				</div>
 				<div class="row center">
 					<a class="waves-effect waves-light btn">Crear Cliente</a>
